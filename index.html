@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS only -->
+    <script src="https://kit.fontawesome.com/13f7c867b1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/ROMA ISOTIPO.png">
@@ -11,73 +15,167 @@
 </head>
 
 <body>
+
+
     <!-- HEADER -->
-    <header>
-        <!-- BARRA SUPERIOR -->
+    <header class="header">
+
         <div class="barrasup">
-            <span class="textosup">Aló Roma 01 531 7781 | <img src="./images/whatsapp.png" alt=""> Whatsapp +51
+            <span class="textosup">Aló Roma 015317781 | <img src="./images/whatsapp.png" alt=""> Whatsapp
                 993691671</span>
         </div>
-        <!-- LOGO Y OPCIONES -->
-        <div class="logo">
-            <nav>
-                <ul class="menu">
-                    <span><img src="./images/Grupo roma X.PNG" alt=""></span>
-                    <li><img src="./images/gas-natural.png" alt=""><a href="./index.html"> Inicio</a></li>
-                    <li><img src="./images/casco.png" alt=""><a href="./proyectos.html"> Proyectos</a></li>
-                    <li><img src="./images/tienda.png" alt=""><a href="./negocio.html"> Negocio</a></li>
-                    <li><img src="./images/casa.png" alt=""><a href="./hogar.html"> Hogar</a></li>
-                    <li><img src="./images/llamada-telefonica.png" alt=""><a href="./atencionalcliente.html"> Atencion
-                            al Cliente</a></li>
-                </ul>
-            </nav>
-        </div>
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand text-light" href="./index.html"><img src="./images/Grupo roma X.PNG" alt=""
+                        width="150px"></a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active text-dark" aria-current="page" href="./index.html">Inicio <img
+                                src="./images/gas-natural.png" alt=""></a>
+                        <a class="nav-link text-dark" href="./proyectos.html">Proyectos <img src="./images/casco.png"
+                                alt=""></a>
+                        <a class="nav-link text-dark" href="./negocio.html">Negocio <img src="./images/tienda.png"
+                                alt=""></a>
+                        <a class="nav-link text-dark" href="./hogar.html">Hogar <img src="./images/casa.png" alt=""></a>
+                        <a class="nav-link text-dark" href="./atencionalcliente.html">Atención al Cliente <img
+                                src="./images/llamada-telefonica.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     </header>
 
     <!-- MAIN -->
     <main>
-        <!-- IMAGEN PRINCIPAL -->
-        <div class="industria">
-            <img src="./images/gasnatu2.jpg" alt="">
+        <!-- CAROUSEL -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sede Principal</h5>
+                        <p>Ubicado en: AA.HH. San Francisco de Cayran-Calle 10 Mz. C Lote 31-San Martín de Porres</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1613986406535-a8371a573ac5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Gasolinera Principal</h5>
+                        <p>Ubicado en: Avenida Víctor Andrés Belaúnde 147</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1608174427965-06e78e2f29a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Apoyo a Viviendas</h5>
+                        <p>Distritos apoyados: San Isidro, Miraflores, Surco.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
         <!-- INFORMACIÓN ADICIONAL DE LOS SERVICIOS -->
+        
         <div class="servicio">
             <span>
-                <!-- <h1>Conéctate al Servicio</h1> -->
+                <h1>Conéctate al Servicio</h1>
                 <div class="centro">
                     <div class="proyectocasco">
                         <img src="./images/cascogrande.png" alt="" height="80px">
-                        <h2>Proyectos</h2>
+                        <a href="./proyectos.html"><h2>Proyectos</h2></a>
                     </div>
                     <div class="negociotienda">
                         <img src="./images/tiendagrande.png" alt="" height="80px">
-                        <h2>Negocio</h2>
+                        <a href="./negocio.html"><h2>Negocio</h2></a>
                     </div>
                     <div class="hogarcasa">
                         <img src="./images/casagrande.png" alt="" height="80px">
-                        <h2>Hogar</h2>
+                        <a href="./hogar.html"><h2>Hogar</h2></a>
                     </div>
                 </div>
-                <h1>Con el respaldo de nuestros contratistas</h1>
-                <div class="centroabajo">
-                    <div class="cont1">
-                        <img src="./images/s&e.png" alt="">
-                    </div>
-                    <div class="cont2">
-                        <img src="./images/cr.png" alt="">
-                    </div>
-                    <div class="cont3">
-                        <img src="./images/p.a..png" alt="">
-                    </div>
-                    <div class="cont4">
-                        <img src="./images/gya.png" alt="">
-                    </div>
-                    <div class="cont5">
-                        <img src="./images/sole.png" alt="">
-                    </div>
-                </div>
-            </span>
+        </div>
+
+        <!-- CARD   -->
+        <div class="card-group">
+            <div class="card border border-dark">
+              <img
+                src="https://images.unsplash.com/photo-1581094377992-18f66364fffe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                class="card-img-top" alt="...">
+              <div class="card-body border-top border-dark">
+                <h5 class="card-title">Grupo Cálidda</h5>
+                <p class="card-text">Grande Roma, nuestros proyectos fueron un éxito!!!</p>
+                <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+                <a href="#" class="btn btn-primary">Ver más...</a>
+              </div>
+            </div>
+            <div class="card border border-dark">
+              <img
+                src="https://images.unsplash.com/photo-1581092570490-cc40829efaae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                class="card-img-top" alt="...">
+              <div class="card-body border-top border-dark">
+                <h5 class="card-title">Lizeth Vergara</h5>
+                <p class="card-text">Presentan proyectos muy sofisticados y con bajo costo.</p>
+                <p class="card-text"><small class="text-muted">Última actualización hace 1 semana</small></p>
+                <a href="#" class="btn btn-primary">Ver más...</a>
+              </div>
+            </div>
+            <div class="card border border-dark">
+              <img
+                src="https://images.unsplash.com/photo-1580835920990-3ed971441447?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                class="card-img-top" alt="...">
+              <div class="card-body border-top border-dark">
+                <h5 class="card-title">Renzo Costa</h5>
+                <p class="card-text">Apoyaron desde 0 mi nuevo emprendimiento!</p>
+                <p class="card-text"><small class="text-muted">Última actualización hace 2 meses</small></p>
+                <a href="#" class="btn btn-primary">Ver más...</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="centroabajo">
+            <h1>Con el respaldo de nuestros contratistas</h1>
+            <br>
+            <img src="./images/s&e.png" alt="">
+            <br>
+            <img src="./images/cr.png" alt="">
+            <br>
+            <img src="./images/p.a..png" alt="">
+            <br>
+            <img src="./images/gya.png" alt="">
+            <br>
+            <img src="./images/sole.png" alt="">
+            <br>
+        </div>
+
+        </span>
         </div>
         <!-- DATOS ADICIONALES -->
         <div class="conociendo">
@@ -123,23 +221,20 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
-        <div class="barrainf">
-            <span class="textoinf">
-                <!-- REDES SOCIALES -->
-                <ul>
-                    <a href="https://www.facebook.com/" target="_blank">Facebook<img src="./images/facebook.png"
-                            alt=""></a>
-                    <a href="https://www.instagram.com" target="_blank">Instagram <img src="./images/instagram.png"
-                            alt=""></a>
-                    <a href="https://twitter.com" target="_blank">Twitter <img src="./images/twitter.png" alt=""></a>
-                    <a href="https//www.whatsapp.com" target="_blank">Whatsapp <img src="./images/whatsapp.png"
-                            alt=""></a>
-                </ul>
-            </span>
-        </div>
+    <footer class="footer">
+        <!-- REDES SOCIALES -->
+        <ol>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ol>
+        <p>Copyright. Todos los derechos reservados.</p>
     </footer>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

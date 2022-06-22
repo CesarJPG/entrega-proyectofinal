@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS only -->
+    <script src="https://kit.fontawesome.com/13f7c867b1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/ROMA ISOTIPO.png">
@@ -11,94 +15,194 @@
 </head>
 
 <body>
+
+
     <!-- HEADER -->
-    <header>
+    <header class="header">
+
         <div class="barrasup">
-            <span class="textosup">Aló Roma 01 531 7781 | <img src="./images/whatsapp.png" alt=""> Whatsapp +51 993 691
-                671</span>
+            <span class="textosup">Aló Roma 015317781 | <img src="./images/whatsapp.png" alt=""> Whatsapp
+                993691671</span>
         </div>
 
-        <div class="logo">
-            <nav>
-                <ul class="menu">
-                    <span><img src="./images/Grupo roma X.PNG" alt=""></span>
-                    <li><img src="./images/gas-natural.png" alt=""><a href="./index.html"> Inicio</a></li>
-                    <li><img src="./images/casco.png" alt=""><a href="./proyectos.html"> Proyectos</a></li>
-                    <li><img src="./images/tienda.png" alt=""><a href="./negocio.html"> Negocio</a></li>
-                    <li><img src="./images/casa.png" alt=""><a href="./hogar.html"> Hogar</a></li>
-                    <li><img src="./images/llamada-telefonica.png" alt=""><a href="./atencionalcliente.html"> Atencion
-                            al Cliente</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand text-light" href="./index.html"><img src="./images/Grupo roma X.PNG" alt=""
+                        width="150px"></a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active text-dark" aria-current="page" href="./index.html">Inicio <img
+                                src="./images/gas-natural.png" alt=""></a>
+                        <a class="nav-link text-dark" href="./proyectos.html">Proyectos <img src="./images/casco.png"
+                                alt=""></a>
+                        <a class="nav-link text-dark" href="./negocio.html">Negocio <img src="./images/tienda.png"
+                                alt=""></a>
+                        <a class="nav-link text-dark" href="./hogar.html">Hogar <img src="./images/casa.png" alt=""></a>
+                        <a class="nav-link text-dark" href="./atencionalcliente.html">Atención al Cliente <img
+                                src="./images/llamada-telefonica.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     </header>
 
     <!-- MAIN -->
     <main>
-        <!-- FORMULARIO -->
-        <img src="./images/attalcliente.png" alt="" height="437px">
-        <div class="attecliente">
-            <div class="ubicacion">
-                <h2>Ubicación</h2>
-                <h3>Nuestra dirección postal es:</h3>
-                <!-- UBICACION CON GOOGLE MAPS -->
-                <p> AA.HH. San Francisco de Cayran-Calle 10 Mz. C Lote 31-San Martín de Porres</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.682397468008!2d-77.088658911932!3d-11.993203499466315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce637ff255a1%3A0x7cdfd538d315f753!2sC.%2010%2C%20Cercado%20de%20Lima%2015108%2C%20Per%C3%BA!5e0!3m2!1ses-419!2sbr!4v1653358690253!5m2!1ses-419!2sbr"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- CAROUSEL -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <form action="#" method="get">
-                <h2> <img src="./images/atte.png" alt="" height="30px"> Formulario de Contacto</h2>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Contacto Directo</h5>
+                        <p>Distintos Canales de Comunicación Directa.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Atención al Cliente</h5>
+                        <p>Nuestros asesores altamente capacitados estarán gustosos de atenderlos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Oficinas de Atención al Cliente</h5>
+                        <p>Todas nuestras sedes cuentan con oficinas de Att. al Cliente para escuchar y resolver todas sus dudas.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="attecliente">
+            <h2>Ubicación</h2>
+            <h3>Nuestra dirección postal es:</h3>
+            <!-- UBICACION CON GOOGLE MAPS -->
+            <p> AA.HH. San Francisco de Cayran-Calle 10 Mz. C Lote 31-San Martín de Porres</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.682397468008!2d-77.088658911932!3d-11.993203499466315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce637ff255a1%3A0x7cdfd538d315f753!2sC.%2010%2C%20Cercado%20de%20Lima%2015108%2C%20Per%C3%BA!5e0!3m2!1ses-419!2sbr!4v1653358690253!5m2!1ses-419!2sbr"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <form action="#" method="post">
+        <div class="formulario">
+                <h2>Formulario de Contacto <img src="./images/atte.png" alt="" height="30px"></h2>
                 <br>
                 <label>Nombres
                     <input type="text">
                 </label>
-                <br><br>
+                <br>
                 <label>Apellidos
                     <input type="text">
                 </label>
-                <br><br>
-                <label>Mail
-                    <input type="email" placeholder="gruporoma@gmail.com">
-                    <input type="submit" value="Enviar">
+                <br>
+                <label>Correo El.
+                    <input type="email" placeholder="roma@gmail.com">         
                 </label>
-                <br><br>
+                <input type="submit" value="Enviar">
+                <br>
                 <label>Dirección
                     <input type="text">
                 </label>
-                <br><br>
-                <label>
-                    ¿Desea recibir Ofertas?
-                    <input type="checkbox">
-                </label>
-                <p>
-                    <textarea name="Comentarios" id="" cols="40" rows="7" placeholder="Mensaje"></textarea>
+                <br>
+                <label>¿Desea recibir Ofertas? <input type="checkbox">
+                    <br>
+                    <textarea name="Comentarios" id="" cols="40" rows="2" placeholder="Mensaje"></textarea>
                     <br>
                     <input type="submit" value="Enviar Formulario">
                     <input type="reset" value="Limpiar Formulario">
-                </p>
+                    
+            </label>
             </form>
         </div>
+
+        <!-- INPUT GROUP -->
+        <section class="trabaja">
+            <img src="./images/cascogrande.png" alt="" width="80px">
+            <h2>Trabaja con Nosotros!!!</h2>
+
+            <label for="basic-url" class="form-label">Nombres y Apellidos</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"></span>
+                <input type="text" class="form-control" placeholder="" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <label for="basic-url" class="form-label">Correo</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"></span>
+                <input type="text" class="form-control" placeholder="@roma.com" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+            </div>
+
+            <label for="basic-url" class="form-label">Tu Linkedin URL</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3"></span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+
+            <label for="basic-url" class="form-label">Pretenciones Salariales</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text">PEN</span>
+                <input type="text" class="form-control" placeholder="S/" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+            </div>
+
+            <label for="basic-url" class="form-label">Cuéntanos sobre ti</label>
+            <div class="input-group">
+                <span class="input-group-text"></span>
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+            </div>
+        </section>
+        <br>
     </main>
     <!-- FOOTER -->
-    <footer>
-        <div class="barrainf">
-            <span class="textoinf">
-                <!-- REDES SOCIALES -->
-                <ul>
-                    <a href="https://www.facebook.com/" target="_blank">Facebook<img src="./images/facebook.png"
-                            alt=""></a>
-                    <a href="https://www.instagram.com" target="_blank">Instagram <img src="./images/instagram.png"
-                            alt=""></a>
-                    <a href="https://twitter.com" target="_blank">Twitter <img src="./images/twitter.png" alt=""></a>
-                    <a href="https//www.whatsapp.com" target="_blank">Whatsapp <img src="./images/whatsapp.png"
-                            alt=""></a>
-                </ul>
-            </span>
-        </div>
+    <footer class="footer">
+        <!-- REDES SOCIALES -->
+        <ol>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ol>
+        <p>Copyright. Todos los derechos reservados.</p>
     </footer>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
