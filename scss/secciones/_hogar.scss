@@ -1,0 +1,21 @@
+.hogarabajo {
+    .hogarmain {
+        background-color: rgb(241, 185, 203);
+        padding: 2rem;
+        color: rgb(218, 137, 207);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hogarbot {
+        background-image: linear-gradient(30deg, rgb(223, 165, 214), rgb(88, 135, 215));
+        ;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: whitesmoke;
+    }
+}
