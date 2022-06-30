@@ -3,7 +3,7 @@
         background-color: rgb(122, 105, 87);
         padding: 2rem;
         color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -11,10 +11,11 @@
 }
 
 .negocioabajo {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    color: white;
-    background-image: linear-gradient(30deg, rgb(150, 112, 73), rgba(141, 141, 141, 0.664));
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    h3 {
+        @extend %estiloNegocios;
+    }
+
+    p{
+        @extend %estiloNegocioMain;
+    }
 }

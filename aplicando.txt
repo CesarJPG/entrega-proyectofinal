@@ -1,0 +1,65 @@
+SASS I + SEO
+*INDEX*
+1-Modificaciones para la correcta distribución de 
+H1-H2-H3-H4-H5-H6.
+
+2-Ordenamiento de estructura completa del código.
+
+
+*PROYECTOS*
+1-Modificaciones para la correcta distribución de 
+H1-H2-H3-H4-H5-H6.
+
+
+2-Ordenamiento de estructura completa del código.
+
+
+*NEGOCIO*
+1-Modificaciones para la correcta distribución de 
+H1-H2-H3-H4-H5-H6.
+
+2-Ordenamiento de estructura completa del código.
+
+*HOGAR*
+1-Modificaciones para la correcta distribución de 
+H1-H2-H3-H4-H5-H6.
+
+2-Ordenamiento de estructura completa del código.
+
+
+*ATENCION AL CLIENTE*
+1-Modificaciones para la correcta distribución de 
+H1-H2-H3-H4-H5-H6.
+
+2-Ordenamiento de estructura completa del código.
+
+SASS II + SEO
+
+*EXTEND*
+-Se agregar extend en contenido medio en negocio.
+-Se agregar extend en contenido bajo en negocio.
+-Se hace cambio de fuente y tamaño de letra.
+-Revisión de estructura de código para todas las secciones.
+
+*MIXINS*
+-Se agregar extend en contenido medio en hogar.
+-Se agregar extend en contenido bajo en hogar.
+-Se hace cambio de fuente y tamaño de letra.
+-Revisión de estructura de código para todas las secciones.
+
+*KEYWORDS*
+-Se agregan KEYWORDS a todas las secciones.
+
+*TÍTULOS*
+-Se verifica que "h1" se encuentra en todos los .html y solo 1 vez.
+-Se verifica correcta distribución de etiqueta "h".
+-Se hace el cambio de título por "Grupo Roma".
+
+*DESCRIPTION*
+-Se ingresa descripción a cada sección.
+
+*SITE MAP*
+-Se agregar Site Map
+
+*MOBILE FRIENDLY*
+-Se verifica que el proyecto es Mobile Friendly

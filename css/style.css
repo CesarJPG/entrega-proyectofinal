@@ -1,3 +1,23 @@
+.negocioabajo h3 {
+  background-image: linear-gradient(30deg, #d1ae7d, rgba(233, 140, 83, 0.626));
+  padding: 2rem;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px; }
+
+.negocioabajo p {
+  background-image: linear-gradient(30deg, #857052, rgba(189, 142, 112, 0.626));
+  padding: 2rem;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px; }
+
 .servicio {
   background-image: linear-gradient(30deg, #f4f1ec, #595a59);
   padding: 1rem;
@@ -30,7 +50,7 @@
 
 .conociendo {
   padding: 1rem; }
-  .conociendo h2 {
+  .conociendo h3 {
     padding: 2rem;
     color: chocolate;
     text-align: center;
@@ -119,18 +139,10 @@
   background-color: #7a6957;
   padding: 2rem;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column; }
-
-.negocioabajo {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  color: white;
-  background-image: linear-gradient(30deg, #967049, rgba(141, 141, 141, 0.664));
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .hogarabajo .hogarmain {
   background-color: #f1b9cb;
@@ -141,13 +153,22 @@
   align-items: center;
   flex-direction: column; }
 
-.hogarabajo .hogarbot {
+.hogarabajo h3 {
   background-image: linear-gradient(30deg, #dfa5d6, #5887d7);
   padding: 2rem;
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: whitesmoke; }
+  color: blueviolet; }
+
+.hogarabajo p {
+  background-image: linear-gradient(30deg, #edc4e7, #7399dc);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: blueviolet;
+  font-size: 20px; }
 
 .attecliente {
   background-color: whitesmoke;

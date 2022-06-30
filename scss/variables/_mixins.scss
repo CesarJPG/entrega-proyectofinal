@@ -1,0 +1,18 @@
+@mixin hogar-Main {
+    background-image: linear-gradient(30deg, rgb(223, 165, 214), rgb(88, 135, 215));
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: blueviolet;
+}
+
+@mixin hogar-Bot {
+    background-image: linear-gradient(30deg, rgb(237, 196, 231), rgb(115, 153, 220));
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: blueviolet;
+    font-size: 20px;
+}
